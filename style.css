@@ -1,0 +1,73 @@
+body {
+    color:white;
+    background:black;
+    margin:0px;
+    margin-bottom: 100px;
+    
+}
+
+
+header {
+    border-bottom:solid 1px #167ac6;
+padding: 20px;
+font-size: 40px;
+color:#167ac6;
+font-family: "New Amsterdam", sans-serif;
+}
+
+
+.chamada{
+    background:#167ac6;
+    padding-bottom: 80px;
+padding-top:80px;
+display: flex;
+justify-content: center;
+font-family: "Anek Devanagari", sans-serif;
+}
+
+.chamada-texto {
+    margin-right: 5%;
+}
+
+h1{
+    font-size: 30px;
+    font-family: "Anek Devanagari", sans-serif;
+}
+
+p{
+    font-size: 15px;
+}
+
+img{
+    
+}
+
+
+.categoria-vídeos{
+    display: flex;
+    overflow-x: auto;
+    gap: 15px;
+}
+
+.categoria{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.categoria-vídeos img {
+opacity: 0.5;
+height: 200px;
+}
+.categoria-vídeos img:hover{
+    opacity: 1;
+    border: 1px solid #167ac6;
+}
+
+.categoria h2 {
+color:#167ac6
+}
+
+h2{
+    font-size: 30px;
+    font-family: "Anek Devanagari", sans-serif;
+}
